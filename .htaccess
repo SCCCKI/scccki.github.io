@@ -1,0 +1,10 @@
+
+# HTID:10224962: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:10224962:
+# Cache Control and Enable CORS
+//Caching schema
+<FilesMatch "\.(jpg|png|css)$">
+Header set Cache-Control "max-age=36288000"
+</FilesMatch>
+ 

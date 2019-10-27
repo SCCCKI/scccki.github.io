@@ -1,0 +1,802 @@
+@charset "utf-8";
+
+@font-face{
+	font-family:'LemonMilklight';
+	src:url("../fonts/LemonMilklight.ttf")
+}
+@font-face{
+	font-family:'Amarillo';
+	src: url("../fonts/Amarillo.ttf");
+}
+/***************************
+	Table of Contents
+1. Universal CSS
+2. Footer CSS
+2. Navigation Bar
+
+****************************/
+.getInvolved{
+	background-color: #E5E5E5;
+	border-radius: 10px;
+}
+
+.lost{
+	font-family:'Lost in Wild', 'Century Gothic', 'verdana', 'sans-serif';
+}
+.milk{
+	
+	font-size: 2.5em;
+}
+/****************************
+1.       Universal CSS
+****************************/
+h2  {
+	color:black;
+}
+h3{
+	color:black;
+}
+h4{
+	color:black;
+}
+p{
+	color:black;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; 
+  outline: none; 
+  background-color: aliceblue; 
+  color: black; 
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+h1{
+/*    font-weight: 700;*/
+	text-align:center;
+	font-weight: normal;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+html{
+	font-family: 'Century Gothic', 'verdana',sans-serif; 
+	margin:0;
+	padding:0;
+	
+	
+}
+body{
+    margin: 0;
+    padding: 0;
+	color:white;
+	line-height: 1.5;
+	background-color: #394a80;
+	
+	background-image: url("../images/Backgrounds/Background7.png");
+	background-size: cover;
+	background-position: center;
+/*    background-image: linear-gradient(to bottom right, #8DD1E9, #F2C0C9);*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card {
+	-webkit-box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.announcements-card{
+	-webkit-box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.a-card{
+	-webkit-box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.boxed-body{
+    width: 80%;			/*60 20 20*/
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+	
+	margin-bottom: 100px;
+}
+aside{
+	text-align: center;
+}
+.body-content{
+	padding: 10px;
+}
+.col-2{
+	float:left;
+	width:50%;
+	text-align: center;
+}
+.col-row:after{
+	content: "";
+	display:table;
+	clear:both;
+}
+.textBox{
+	background-color: #E5E5E5;
+	border-color: #000000;
+	padding: 20px;
+	width: 70%;
+	border-radius: 10px;
+	display: inline-block;
+	color:black;
+}
+.heading-container{
+	background-color: #f2c57a;	
+	border-width: 5px;
+	border-style: outset;
+	border-color: #3F5FA4;
+
+	width: 40%;
+	padding: inherit;
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: center;	
+}
+.page-heading{
+	color:white; 
+	font-size: 2em;
+	font-family: 'Amarillo';
+	text-shadow: 4px 4px 6px #000
+}
+
+.gotobtn{
+	position: fixed;
+	width:50px;
+	height:50px;
+	background:green;
+}
+.accessibility{
+	position: absolute;
+	left:-10000px;
+	top: auto;
+	width:1px;
+	height: 1px;
+	overflow: hidden;
+	color:white;
+}
+/****************************
+2.      Footer CSS
+****************************/
+#footer p{
+	color:white;
+}
+footer{
+	width:100%;
+	background-color:#222;
+	padding:30px 0px;		/*60 top and bottom, 0 left and right */
+	color:white;
+	font-size:14px;
+}
+.sm-row{
+		text-align: center;
+	}
+.footer-content{
+	width: 80%;
+	padding: 0 10%;
+}
+
+.footer-row{
+	width:100%;
+	display: inline-flex;
+}
+#footer a{
+	color:white;
+}
+.footer-col-1{
+	width:40%;
+	margin:0;
+	margin-right:10px;
+	float:left;
+}
+.footer-col-2{
+	width:50%;
+/*	float:right;*/
+	margin: 0;
+}
+.footer-logo-row{
+	width: 100%;
+}
+
+
+.footer-column{
+	width: 50%;
+}
+
+#footer ul li{
+	text-decoration: none;
+	list-style: none;
+	text-align: center;
+}
+.footer-content{
+	width: 80%;
+	padding: 0 10%;
+}
+.footer-logos{
+	margin:10px;
+}
+.hidden-main{
+	display: none;
+}
+/****************************
+3.       Navigation Bar
+****************************/
+nav{
+    width: 100%;
+    overflow: hidden;
+    align-content: center;
+	background-color:#fff; 
+	background-image: url(../images/icons/BlueStripes.png);
+	background-size:100% 10%;
+	background-repeat:no-repeat;
+	background-position: bottom;
+	border-width:0;
+	border-radius:0;
+	font-family: 'Roboto', sans-serif;
+}
+.navUl{
+	height: 100%;
+	margin: 0 auto;					/*there was auto here */
+	padding:0;
+	text-align: right;				/*pushes list elements to the right (Remember this)*/
+	float:right;
+}
+#nav ul li{							/*ul li{ ORGINAL*/
+	list-style:none;
+	display:inline-block; 			/*Area determines size of box */
+	padding:30px;
+
+	padding-left: 5px; 
+	padding-right: 15px;
+
+	text-align: center;
+	font-weight:bold;				/*Bolds the selection*/
+	font-size:1.15em;
+}
+#nav ul li:hover{
+/*	background:#F2C0C9;				*/
+	text-decoration: underline;
+	color:#F2C0C9;
+}
+#nav ul li a{
+	color:#4B00B5;					
+	/*font color change for list*/
+	text-decoration:none;
+}
+.active ul li a{
+	color:#5227AB;
+	text-decoration-line: underline;
+}
+.toggle{
+	width:100%;
+	padding:10px 20px;
+	/*background:#001f44; */
+	text-align:right;
+	box-sizing: border-box; 
+	color: black;					/*Changes the color of responsive box*/
+	font-size:40px; 				/*change size of responsive box*/
+	display:none;  					/*hides the responsive bar */
+}
+@media only screen and (max-width: 576px){ /*768    @media (max-width:576px)*/
+	.toggle{
+		display:block;
+	}
+
+	ul{
+		width:100%;
+		display:none;
+	}
+	ul li{
+		display:block;
+		text-align: center;
+		/*border: thin; */	
+		width: 100%;
+	}
+	.active{
+		display:block;
+	}
+	.CKIlogo{
+		display:none; 				/*Hides the original logo on full width page*/
+	}
+	nav{
+		background-size: 100% 1%;
+		background-position: bottom
+	}
+	.districtEm{
+		display: none;
+	}
+}
+
+
+/***************************
+4.	     Index CSS
+***************************/
+.right{
+	float:right;
+}
+
+.landing-banner{
+	display: none;
+}
+.fullWidth{
+	width:100%;
+}
+#quickLinks h2{
+	text-align: center;
+}
+.quickLinkSection{
+	margin-top:0;
+	/*padding: 10px; */
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.quickLinkButton{
+    background-color: #91bad4;
+    font-weight: 800;
+    border-width: solid; /*medium*/
+    border-color: #686868;
+	font-size: 1em;
+	
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    /*display:block; */
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+	
+	-webkit-box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.2);
+	
+	font-family: 'Century Gothic', 'verdana',sans-serif;
+}
+.quickLinkButton:hover{
+	background-color:white;
+}
+.quickLink50{
+	height: 50%;
+}
+.video-wrapper{
+    background-color: #FFFFFF;
+	
+    border-width: medium;
+    border-style: dashed;
+	
+	margin: 0;
+	margin-left: 10px;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+/*********************
+	Announcements CSS
+**********************/
+#announcements .announcements-box{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+/*	margin-top: 0;*/
+	background-color: aliceblue; 
+	width: 80%;
+	border-radius: 30px;
+	border-style: solid;
+	border-color:#5C5C5C;
+	
+}
+
+#announcements .announcements-header{
+	background-color:#ffe35b;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	padding: 10px;
+	text-align: left;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+#announcements .announcements-body{
+    background-color: aliceblue;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+.announcements-bottom-head{
+	border-top-style: solid;
+	border-color:black;
+	text-align: left;
+	padding: 5px;
+}
+.announcements-bottom-head p{
+	margin-top: 0px; 
+	margin-bottom: 0px
+}
+
+#announcements h3{
+	margin: 0;
+	color:black;
+	margin-left: 10px;
+}
+#announcements h5{
+	text-align: left;
+}
+#announcements p{
+	padding: 5px;
+	color:black;
+}
+.announcements-image{
+	max-height:400px;
+	padding-bottom: 10px;
+	max-width: 80%;
+}
+#announcements p{
+	text-align:left;
+	margin-left: 6px;
+}
+
+/***********************
+	Forms and Documents CSS Section
+***********************/
+#documents body{
+	text-align: left;
+}
+#documents button{
+	font-size: 15px;
+}
+#documents a{
+	font-size: 1em;
+}
+#documents i{
+    left: 100px;
+}
+.documents-box{
+	text-align: left;
+/*	border-style: dashed;*/
+	padding: 20px;
+	background-color: aliceblue;
+	margin: 20px;
+	border-radius: 10px;
+	height: auto;
+}
+.document-col{
+	padding:0;
+	margin: 0;
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+}
+.download-button{
+    background-color: #F49AC2;    /*F49AC2*/
+    padding: 3%;
+    margin: 2%;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+/*    text-decoration: underline;*/
+    font-weight: bold;
+    cursor: pointer;
+/*    border-style: solid;*/
+/*    border-color: #575757;*/
+	
+	-webkit-box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.download-button:hover{
+	background-color:#bee5f5; /*bee5f5*/
+	color:black;
+	text-decoration: underline;
+}
+.download-button-inactive{
+	background-color:#A29F9F;
+	padding: 3%;
+	margin:2%;
+	border-radius: 10px;
+	border: 3px solid transparent;
+	width: 80%;
+	margin-left:10%;
+	margin-right:10%;
+	font-weight: bold;
+	
+	-webkit-box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 5px 8px 8px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.download-icon{
+	font-size: 1.25em; 
+	padding-right: 5px; 
+	display: inline-block;
+	float:left;
+}
+
+/***********************
+Collapsible Button Section
+
+
+/* Style the button that is used to open and close the collapsible content */
+#get-involved .collapsible {
+	background-color: black;
+	color: #fff;
+	cursor: pointer;
+	padding: 18px;
+	width: 79.5%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+#get-involved .active, .collapsible:hover {
+  background-color: black;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+#get-involved .content {
+	padding: 0 18px;
+	background-color: #E5E5E5;	/*Sets the background of the collapsible content area*/
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height 0.2s ease-out;
+	width: 70%;
+	display: inline-block;
+	margin-top: -10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#get-involved .collapsible:after {
+	  content: '\02795'; 		/* Unicode character for "plus" sign (+) */
+	  font-size: 13px;
+	  color: white;
+	  float: right;
+	  margin-left: 5px;
+}
+#get-involved .active:after {
+  	content: "\2796"; 			/* Unicode character for "minus" sign (-) */
+}
+#get-involved .involve-button{
+	
+	background-color:#8F67EB;
+	/*Overall box*/
+	width:95%;
+	font-size:18px;
+	padding:10px;
+	cursor:pointer;
+	margin:10px;
+	
+	/*border CSS*/
+	border-style:dotted;
+	border-color:black;
+	border-radius:10px;
+	
+}
+
+
+/*Get Involved Section CSS (may not need anymore*/
+#get-involved .involve-column{
+	width: 33%;	
+	float:left;
+}
+.row{
+	width: 100%;
+	display: inline-block;  /*flex was original */
+}
+
+
+/*****************
+	COMMITTEE CSS 
+*******************/
+.banner{
+	border-radius: 10px;
+}
+.headshot{
+	border-radius: 200px;
+	-webkit-box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.headshot-col{
+	width: 25%;
+	float:left;
+}
+#committee a{
+	color:white;
+	font-size: .95em;
+}
+
+#committee strong{
+	font-size: 1.5em; 
+	color:white;
+}
+#committee p{
+	color:white;
+}
+
+
+
+
+/****************
+	FAQ CSS
+****************/
+#faq li{
+	color:black;
+}
+.FAQ-box{
+	background-color:aliceblue;
+	width: 100%;
+	margin:0;
+	padding:10px;
+	height:100%;
+	border-radius: 10px;
+}
+.FAQ-Cat{
+	margin:0;
+	padding:0;
+}
+.FAQ-Title{
+	margin:0;
+	padding:0;
+	float:left;
+	width: 20%;
+}
+.FAQ-accord{
+	float:right;
+	width:80%;
+	overflow: hidden;
+}
+#faq p{
+	text-align:left;
+	font-size:.90em,;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+#faq .accordion {
+	background-color: #bee5f5; /*#eee #91bad4;*/
+	color: #3A3A3A;
+	cursor: pointer;
+	padding: 18px;
+	text-align: left;
+  	border: none;
+  	outline: none;
+  	transition: 0.4s;
+	float:right;
+	width: 100%;
+	font-family: 'Century Gothic', 'verdana',sans-serif; 
+	font-size: 1.20em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+#faq .active, .accordion:hover {
+  background-color: #f4c1c9;
+	text-decoration: underline;
+}
+#faq .active{
+	text-decoration: none;
+}
+/* Style the accordion panel. Note: hidden by default */
+#faq .panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  width: 97%;
+	float: right;
+}
+
+#faq .accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) 13*/
+  font-size: 17px;
+  color: black;
+  float: right;
+  margin-left: 5px;
+}
+
+#faq .active:after {
+  content: "\2796";  /*Unicode character for "minus" sign (-) */
+}
+#faq .button{
+	width: 15%;
+	margin-left:2.15%;
+	margin-right:2.15%;
+	padding: 10px 10px 10px 10px;
+	border-color:#5C5C5C;
+	border-radius: 10px;
+	font-size:1.15em;
+	font-weight: bold;
+	cursor: pointer;
+	background-color:#bee5f5;
+}
+#faq .button:hover{
+	background-color: #ed9bab;
+}
+
+/**************************
+	Get Involved Section
+**************************/
+
+.youtubeEmbed{
+	max-width: 100%; 
+	border-radius: 15px;
+	padding:5px; 
+	display: block; 
+	margin-left:-5px;
+					
+	-webkit-box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.getInvolvedSection{
+	margin-top:0;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-left: 10%;
+	width: 80%;
+}
+.videoBox{
+	background-color: #E5E5E5;
+	border-color: #000000;
+/*	padding: 20px;*/
+					
+	border-radius: 10px;
+	display: inline-block;
+	color:black;
+}
+#get-involved p{
+	text-align: left;
+}
+#get-involved hr{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#get-involved .mobileSplit{
+	display: none;
+}
+@media only screen and (max-width: 576px){
+	#get-involved .mobileSplit{
+		display:flex;
+		width: 100%;
+/*		margin-top: 50px;*/
+	}
+	#get-involved .mobileSplit2{
+		margin-bottom:50px;
+	}
+}
+.involve-button2{
+	background-color:#bee5f5;				
+	/*Overall box*/				
+	width:100%;
+	font-size:18px;
+	padding:10px;
+	cursor:pointer;
+	margin:0px;
+	/*border CSS*/			
+	border-color:#5C5C5C;
+	border-radius:10px;				
+	-webkit-box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.involve-button2:hover{
+	background-color: #ed9bab;
+}
