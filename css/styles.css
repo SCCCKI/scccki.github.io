@@ -310,6 +310,7 @@ nav{
 	}
 	.CKIlogo{
 		display:none; 				/*Hides the original logo on full width page*/
+		
 	}
 	nav{
 		background-size: 100% 1%;
@@ -799,4 +800,18 @@ Collapsible Button Section
 }
 .involve-button2:hover{
 	background-color: #ed9bab;
+}
+.involve-button2-inactive{
+	background-color:#A29F9F;				
+	/*Overall box*/				
+	width:100%;
+	font-size:18px;
+	padding:10px;
+	cursor:pointer;
+	margin:0px;
+	/*border CSS*/			
+	border-color:#5C5C5C;
+	border-radius:10px;				
+	-webkit-box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 10px 16px 8px 0 rgba(0, 0, 0, 0.2);
 }

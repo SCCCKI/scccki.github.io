@@ -182,7 +182,7 @@
 		text-align: center;
 	}
 }
-@media only screen and (min-width: 1920px){ /*1920*/
+@media only screen and (min-width: 1920px){ 
 	.boxed-body{
 		width: 60%;			/*60 20 20*/
 		margin-left: 20%;
@@ -196,7 +196,18 @@
 		margin-left:-80px;
 	}
 }
-
+/* */
+@media only screen and (min-width: 3840px){ 
+	.Big-Footer{
+		margin-left: 100px;
+	}
+	.sm-icons{
+		margin-right:50px;
+	}
+	.Big-SMIcon{
+		margin-right:50px;
+	}
+}
  /* Responsive iFrame */
  #calendar .responsive-iframe-container {
      position: relative;
