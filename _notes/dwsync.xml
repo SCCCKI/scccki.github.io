@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name=".htaccess" server="C:/Apache24/htdocs/" local="132161201660445635" remote="132161237660000000" Dst="1" />
-<file name="announcements.html" server="C:/Apache24/htdocs/" local="132173944721296494" remote="132173944720000000" Dst="1" />
-<file name="Committee.html" server="C:/Apache24/htdocs/" local="132174095803570302" remote="132174095800000000" Dst="1" />
-<file name="documents.html" server="C:/Apache24/htdocs/" local="132174301176918402" remote="132174301170000000" Dst="1" />
-<file name="faq.html" server="C:/Apache24/htdocs/" local="132173945867992200" remote="132173945860000000" Dst="1" />
+<file name="announcements.html" server="C:/Apache24/htdocs/" local="132174566680271089" remote="132174566680000000" Dst="1" />
+<file name="Committee.html" server="C:/Apache24/htdocs/" local="132174569603429674" remote="132174569600000000" Dst="1" />
+<file name="documents.html" server="C:/Apache24/htdocs/" local="132174566680310983" remote="132174566680000000" Dst="1" />
+<file name="faq.html" server="C:/Apache24/htdocs/" local="132174566680350878" remote="132174566680000000" Dst="1" />
 <file name="favicon.ico" server="C:/Apache24/htdocs/" local="132174261261091127" remote="132174261260000000" Dst="1" />
-<file name="index.html" server="C:/Apache24/htdocs/" local="132174274369969335" remote="132174274360000000" Dst="1" />
-<file name="involve.html" server="C:/Apache24/htdocs/" local="132174295056103704" remote="132174295050000000" Dst="1" />
+<file name="index.html" server="C:/Apache24/htdocs/" local="132174566680390774" remote="132174566680000000" Dst="1" />
+<file name="involve.html" server="C:/Apache24/htdocs/" local="132174566680420695" remote="132174566680000000" Dst="1" />
 <file name=".htaccess" server="C:/Apache/htdocs/DCON/" local="132161201660000000" remote="132161201660000000" Dst="2" />
 <file name="announcements.html" server="C:/Apache/htdocs/DCON/" local="132171277155928956" remote="132171277150000000" Dst="2" />
 <file name="Committee.html" server="C:/Apache/htdocs/DCON/" local="132167999250000000" remote="132167999250000000" Dst="2" />
@@ -16,4 +16,5 @@
 <file name="favicon.ico" server="C:/Apache/htdocs/DCON/" local="132153348390000000" remote="132153348390000000" Dst="2" />
 <file name="index.html" server="C:/Apache/htdocs/DCON/" local="132165125830000000" remote="132165125830000000" Dst="2" />
 <file name="involve.html" server="C:/Apache/htdocs/DCON/" local="132171272270828406" remote="132171272270000000" Dst="2" />
+<file name="CNAME" server="C:/Apache24/htdocs/" local="132174566680181332" remote="132174566680000000" Dst="1" />
 </dwsync>
