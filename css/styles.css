@@ -737,7 +737,11 @@ Collapsible Button Section
 /**************************
 	Get Involved Section
 **************************/
-
+.loneInvolve{
+	width:50%;
+	margin-left: 25%; 
+	margin-right: 25%;
+}
 .youtubeEmbed{
 	max-width: 100%; 
 	border-radius: 15px;

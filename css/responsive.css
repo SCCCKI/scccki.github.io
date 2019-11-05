@@ -37,6 +37,11 @@
 		background-size: cover !important; 
 /*		background: url(../images/mobile.jpg) no-repeat center center fixed;*/
 	}
+	.loneInvolve{
+		width:100%;
+		margin-left: 0%; 
+		margin-right: 0%;
+	}
 	.download-button-inactive{
 		width:100%;
 		margin-left:0;
