@@ -8,14 +8,16 @@
 <file name="favicon.ico" server="C:/Apache24/htdocs/" local="132190064710000000" remote="132190064710000000" Dst="1" />
 <file name="index.html" server="C:/Apache24/htdocs/" local="132190064720000000" remote="132190064720000000" Dst="1" />
 <file name="involve.html" server="C:/Apache24/htdocs/" local="132194981149391209" remote="132194981140000000" Dst="1" />
-<file name=".htaccess" server="C:/Apache/htdocs/DCON/" local="132161201660000000" remote="132161201660000000" Dst="2" />
-<file name="announcements.html" server="C:/Apache/htdocs/DCON/" local="132171277155928956" remote="132171277150000000" Dst="2" />
-<file name="Committee.html" server="C:/Apache/htdocs/DCON/" local="132167999250000000" remote="132167999250000000" Dst="2" />
-<file name="documents.html" server="C:/Apache/htdocs/DCON/" local="132169853330000000" remote="132169853330000000" Dst="2" />
-<file name="faq.html" server="C:/Apache/htdocs/DCON/" local="132165125820000000" remote="132165125820000000" Dst="2" />
-<file name="favicon.ico" server="C:/Apache/htdocs/DCON/" local="132153348390000000" remote="132153348390000000" Dst="2" />
-<file name="index.html" server="C:/Apache/htdocs/DCON/" local="132165125830000000" remote="132165125830000000" Dst="2" />
-<file name="involve.html" server="C:/Apache/htdocs/DCON/" local="132171272270828406" remote="132171272270000000" Dst="2" />
+<file name=".htaccess" server="C:/Apache/htdocs/DCON/" local="132190064716487454" remote="132190064710000000" Dst="1" />
+<file name="announcements.html" server="C:/Apache/htdocs/DCON/" local="132197207646450052" remote="132197207640000000" Dst="1" />
+<file name="Committee.html" server="C:/Apache/htdocs/DCON/" local="132190064716576705" remote="132190064710000000" Dst="1" />
+<file name="documents.html" server="C:/Apache/htdocs/DCON/" local="132190064716826393" remote="132190064710000000" Dst="1" />
+<file name="faq.html" server="C:/Apache/htdocs/DCON/" local="132190064716883523" remote="132190064710000000" Dst="1" />
+<file name="favicon.ico" server="C:/Apache/htdocs/DCON/" local="132190064716907361" remote="132190064710000000" Dst="1" />
+<file name="index.html" server="C:/Apache/htdocs/DCON/" local="132190064723248889" remote="132190064720000000" Dst="1" />
+<file name="involve.html" server="C:/Apache/htdocs/DCON/" local="132194981140000000" remote="132194981140000000" Dst="1" />
 <file name="CNAME" server="C:/Apache24/htdocs/" local="132190064710000000" remote="132190064710000000" Dst="1" />
 <file name=".gitignore" server="C:/Apache24/htdocs/" local="132190064710000000" remote="132190064710000000" Dst="1" />
+<file name=".gitignore" server="C:/Apache/htdocs/DCON/" local="132197202612066025" remote="132197202610000000" Dst="1" />
+<file name="CNAME" server="C:/Apache/htdocs/DCON/" local="132190064716556722" remote="132190064710000000" Dst="1" />
 </dwsync>

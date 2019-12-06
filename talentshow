@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>Redirecting... | DCON 2020</title>
+	<meta http-equiv="Refresh" content="0; url=https://drive.google.com/file/d/1mpJydEFgH_WcnvYrapI9hg_o6bN7n0PS/view?usp=sharing" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!--font-awesome CSS-->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!--Google Font for Nav Bar-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<!--Style Sheet link-->
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<!--Responsive Style Sheet-->
+ 	<link href="css/responsive.css" rel="stylesheet" type="text/css">
+	<!--JavaScript Jquery-->
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.js"></script> -->
+	<!--Fontawesome Kit-->
+	<script src="https://kit.fontawesome.com/b532cb6607.js"></script>
+	<!--Responsive Menu JS-->
+	<script src="js/responsvieNav.js"></script>
+	<!--Includes JavaScript-->
+	<noscript>Your browser does not support JavaScript</noscript>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  </head>
+  <body>
+	  <a href="#main-content" title="Skip to Main Content" class="accessibility">Skip to Content</a> <!-- Accessibility skip content -->
+	<!--NavBar BEGIN-->
+	<nav id="nav">
+		<a href="https://www.circlek.org/"><img class="CKIlogo" style="margin-top: 12px;
+		margin-left:5px;" src="images/icons/logo_CKI_ wordmark_BW_oneline_PNG.png"  width="200" alt="CKI Logo"/></a>
+		<div class="toggle"> <!--Anything within this will appear in responsive navbar-->
+			<img src="images/icons/cki_wordmark.png" style="float:left; margin-top:5px;"  width="149" alt="Circle K International Logo"/>
+			<i class="fa fa-bars menu" aria-hidden="true"></i>
+		</div>
+		<a href="http://www.cnhcirclek.org/"><img class="districtEm" src="images/icons/District Emblem.svg" style="float:right; text-align: right; clear:right;margin-top:5px;" width="65" alt="CNH District Emblem"/></a>
+		<ul class="navUl" role="navigation">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="announcements.html">Announcements</a></li>
+			<li><a href="involve.html">Get Involved</a></li>
+			<li><a href="documents.html">Documents</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+			<li><a href="Committee.html">Committee</a></li>
+		</ul>
+    </nav>
+<style>
+		.redirect {
+    /* height: 200px; */
+    width: 400px;
+    /* background: black; */
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+</style>
+	<!--NavBar END-->
+		<div class="body-content">
+			<div class="textBox card redirect">
+				<h2 class="">Redirecting...</h2>
+				<p>Please click <a href="https://drive.google.com/file/d/1mpJydEFgH_WcnvYrapI9hg_o6bN7n0PS/view?usp=sharing">here</a> if you are not automatically redirected.</p>
+			</div>
+
+		</div>
+
+  </body>
+</html>
