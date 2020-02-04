@@ -2,12 +2,12 @@
 <dwsync>
 <file name=".htaccess" server="C:/Apache24/htdocs/" local="132190064710000000" remote="132190064710000000" Dst="1" />
 <file name="announcements.html" server="C:/Apache24/htdocs/" local="132240419239880949" remote="132240419230000000" Dst="1" />
-<file name="Committee.html" server="C:/Apache24/htdocs/" local="132190064710000000" remote="132190064710000000" Dst="1" />
+<file name="Committee.html" server="C:/Apache24/htdocs/" local="132252676301811258" remote="132252676300000000" Dst="1" />
 <file name="documents.html" server="C:/Apache24/htdocs/" local="132248157127481636" remote="132248157120000000" Dst="1" />
 <file name="faq.html" server="C:/Apache24/htdocs/" local="132190064710000000" remote="132190064710000000" Dst="1" />
 <file name="favicon.ico" server="C:/Apache24/htdocs/" local="132190064710000000" remote="132190064710000000" Dst="1" />
-<file name="index.html" server="C:/Apache24/htdocs/" local="132190064720000000" remote="132190064720000000" Dst="1" />
-<file name="involve.html" server="C:/Apache24/htdocs/" local="132242332840376007" remote="132242332840000000" Dst="1" />
+<file name="index.html" server="C:/Apache24/htdocs/" local="132244976940000000" remote="132244976940000000" Dst="1" />
+<file name="involve.html" server="C:/Apache24/htdocs/" local="132250660480000000" remote="132250660480000000" Dst="1" />
 <file name=".htaccess" server="C:/Apache/htdocs/DCON/" local="132190064716487454" remote="132190064710000000" Dst="1" />
 <file name="announcements.html" server="C:/Apache/htdocs/DCON/" local="132240419230000000" remote="132240419230000000" Dst="1" />
 <file name="Committee.html" server="C:/Apache/htdocs/DCON/" local="132190064716576705" remote="132190064710000000" Dst="1" />
@@ -17,7 +17,7 @@
 <file name="index.html" server="C:/Apache/htdocs/DCON/" local="132244976947128248" remote="132244976940000000" Dst="1" />
 <file name="involve.html" server="C:/Apache/htdocs/DCON/" local="132250660480720798" remote="132250660480000000" Dst="1" />
 <file name="CNAME" server="C:/Apache24/htdocs/" local="132190064710000000" remote="132190064710000000" Dst="1" />
-<file name=".gitignore" server="C:/Apache24/htdocs/" local="132203547360000000" remote="132203547360000000" Dst="1" />
+<file name=".gitignore" server="C:/Apache24/htdocs/" local="132244976480000000" remote="132244976480000000" Dst="1" />
 <file name=".gitignore" server="C:/Apache/htdocs/DCON/" local="132244976483122245" remote="132244976480000000" Dst="1" />
 <file name="CNAME" server="C:/Apache/htdocs/DCON/" local="132190064716556722" remote="132190064710000000" Dst="1" />
 <file name="talentshow.html" server="C:/Apache/htdocs/DCON/" local="132242319120000000" remote="132242319120000000" Dst="1" />
@@ -28,4 +28,6 @@
 <file name="SAA.html" server="C:/Apache/htdocs/DCON/" local="132234556660000000" remote="132234556660000000" Dst="1" />
 <file name="DCON-2020-Program-Ad-Form.pdf" server="C:/Apache/htdocs/DCON/" local="132245742830000000" remote="132245742830000000" Dst="1" />
 <file name="DCON-2020-Program-Ad-FormOLD.pdf" server="C:/Apache/htdocs/DCON/" local="132244965383116214" remote="132244965380000000" Dst="1" />
+<file name="DCON-2020-Program-Ad-Form.pdf" server="C:/Apache24/htdocs/" local="132245742836868684" remote="132245742830000000" Dst="1" />
+<file name="DCON-2020-Program-Ad-FormOLD.pdf" server="C:/Apache24/htdocs/" local="132244965380000000" remote="132244965380000000" Dst="1" />
 </dwsync>
