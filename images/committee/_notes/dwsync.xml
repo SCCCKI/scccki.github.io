@@ -38,4 +38,6 @@
 <file name="Winnie.jpg" server="C:/Apache/htdocs/DCON/" local="132190064721844608" remote="132190064720000000" Dst="1" />
 <file name="Andy.jpg" server="C:/Apache24/htdocs/" local="132252672294616835" remote="132252672290000000" Dst="1" />
 <file name="Ralph.jpg" server="C:/Apache24/htdocs/" local="132252672742472700" remote="132252672740000000" Dst="1" />
+<file name="Andy.jpg" server="C:/Apache/htdocs/DCON/" local="132252672290000000" remote="132252672290000000" Dst="1" />
+<file name="Ralph.jpg" server="C:/Apache/htdocs/DCON/" local="132252672740000000" remote="132252672740000000" Dst="1" />
 </dwsync>
