@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/*Font CSS*/
 @font-face{
 	font-family:'LemonMilklight';
 	src:url("../fonts/LemonMilklight.ttf")
@@ -8,12 +9,23 @@
 	font-family:'Amarillo';
 	src: url("../fonts/Amarillo.ttf");
 }
+
+/* NOTES:
+Sorry if this code is really messy, this was the first time I've ever made a website from scratch and if things are a bit repetitive, you know know haha -Vincent
+*/
+
 /***************************
 	Table of Contents
 1. Universal CSS
 2. Footer CSS
-2. Navigation Bar
-
+3. Navigation Bar
+4. Index CSS
+5. Announcements CSS
+6. Forms and Documents CSS Section
+7. Collapsible Button Section
+8. Committee CSS 
+9. FAQ CSS
+10. Get Involved Section
 ****************************/
 .getInvolved{
 	background-color: #E5E5E5;
@@ -386,7 +398,7 @@ nav{
 }
 
 /*********************
-	Announcements CSS
+  5.Announcements CSS
 **********************/
 #announcements .announcements-box{
 	margin-top: 5%;
@@ -455,7 +467,7 @@ nav{
 }
 
 /***********************
-	Forms and Documents CSS Section
+6.Forms and Documents CSS Section
 ***********************/
 #documents body{
 	text-align: left;
@@ -531,8 +543,8 @@ nav{
 }
 
 /***********************
-Collapsible Button Section
-
+7.Collapsible Button Section
+***********************/
 
 /* Style the button that is used to open and close the collapsible content */
 #get-involved .collapsible {
@@ -586,7 +598,6 @@ Collapsible Button Section
 	padding:10px;
 	cursor:pointer;
 	margin:10px;
-	
 	/*border CSS*/
 	border-style:dotted;
 	border-color:black;
@@ -607,7 +618,7 @@ Collapsible Button Section
 
 
 /*****************
-	COMMITTEE CSS 
+  8.Committee CSS 
 *******************/
 .banner{
 	border-radius: 10px;
@@ -635,11 +646,8 @@ Collapsible Button Section
 	color:white;
 }
 
-
-
-
 /****************
-	FAQ CSS
+  9.FAQ CSS
 ****************/
 #faq li{
 	color:black;
@@ -735,7 +743,7 @@ Collapsible Button Section
 }
 
 /**************************
-	Get Involved Section
+  10.Get Involved Section
 **************************/
 .loneInvolve{
 	width:50%;
