@@ -1,0 +1,22 @@
+[
+  {
+    "title": "General Meeting",
+    "start": "2025-09-10T18:00:00",
+    "location": "Room 101, Student Center",
+    "description": "Monthly club meeting. Bring your ideas and questions.",
+    "url": "meeting-details.html"
+  },
+  {
+    "title": "Service Project",
+    "start": "2025-09-15",
+    "location": "Community Park",
+    "description": "Volunteer to clean the park from 9 AM to 12 PM."
+  },
+  {
+    "title": "Fundraiser",
+    "start": "2025-09-20",
+    "location": "Main Hall",
+    "description": "Help raise money for our service projects.",
+    "url": "fundraiser-details.html"
+  }
+]

@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Home | DCON 2020</title>
+<title>Home | SACRAMENTO CITY COLLEGE CKI </title>
 	<meta name="Description" content="CNH Circle K District Convention Website Homepage">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <script>
+  let baseTitle = "Home | SACRAMENTO CITY COLLEGE CKI";
+  let spacer = " "; // spaces for smoothness
+  let fullTitle = spacer + baseTitle + spacer; 
+  let position = 0;
+
+  function scrollTitle() {
+    let scrolled = fullTitle.substring(position) + fullTitle.substring(0, position);
+    document.title = scrolled + " •"; // separator always at the end
+    position = (position + 1) % fullTitle.length;
+  }
+
+  setInterval(scrollTitle, 150); // 100 = faster, 200 = slower
+</script>
+
+  
+
+</head>
 	
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<!--Google Font for Nav Bar-->
@@ -51,7 +70,8 @@
 			<li><a href="involve.html">Get Involved</a></li>
 			<li><a href="documents.html">Documents</a></li>
 			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="Committee.html">Committee</a></li>
+			<li><a href="Leadership.html">Leadership</a></li>
+            <li><a href="Calendar.html">Calendar</a></li>
 			
 				
 		</ul>
