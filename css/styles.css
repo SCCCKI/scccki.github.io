@@ -1,3 +1,6 @@
+a {
+	color: #c68c53 !important;
+}
 @charset "utf-8";
 
 /*Font CSS*/
@@ -294,7 +297,7 @@ nav{
 	color:#F2C0C9;
 }
 #nav ul li a{
-	color:#c68c53; /* brown */
+	color:#c68c53 !important; /* brown */
 	text-decoration:none;
 }
 .active ul li a{
