@@ -294,12 +294,11 @@ nav{
 	color:#F2C0C9;
 }
 #nav ul li a{
-	color:#4B00B5;					
-	/*font color change for list*/
+	color:#c68c53; /* brown */
 	text-decoration:none;
 }
 .active ul li a{
-	color:#5227AB;
+	color:#c68c53;
 	text-decoration-line: underline;
 }
 .toggle{
